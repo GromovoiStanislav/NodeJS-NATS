@@ -9,6 +9,7 @@ npm i nats
 #### Start:
 
 ```
-npm run example-1
-npm run example-2
+npm run example-1   // StringCodec
+npm run example-2   // JSONCodec
+npm run example-3   // Wildcard Subscriptions
 ```

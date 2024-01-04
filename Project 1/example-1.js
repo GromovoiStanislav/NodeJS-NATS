@@ -5,7 +5,6 @@ const nc = await connect({ servers: 'demo.nats.io:4222' });
 
 // create a codec
 const sc = StringCodec();
-const jc = JSONCodec();
 
 const sub = nc.subscribe('hello');
 (async () => {
