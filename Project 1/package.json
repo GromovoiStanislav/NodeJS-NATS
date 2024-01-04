@@ -1,0 +1,16 @@
+{
+  "name": "nats-example",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "example-1": "node example-2.js",
+    "example-2": "node example-2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nats": "^2.18.0"
+  }
+}
