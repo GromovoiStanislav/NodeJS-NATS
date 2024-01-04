@@ -1,4 +1,4 @@
-## NATS Publish and Subscribe simple example
+## NATS Publish/Subscribe simple example
 
 #### Setup:
 

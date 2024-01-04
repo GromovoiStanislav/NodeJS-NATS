@@ -1,5 +1,5 @@
 ## NATS with NodeJS examples
 
-- 1 - Publish and Subscribe simple example
+- 1 - Publish/Subscribe simple example
 
 
