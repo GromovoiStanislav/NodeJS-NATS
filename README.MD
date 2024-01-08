@@ -5,3 +5,4 @@
 - 3 - Core Publish-Subscribe
 - 4 - Request-Reply
 - 5 - JSON for Message Payloads
+- 6 - Queue Groups
