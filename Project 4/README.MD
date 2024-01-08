@@ -9,5 +9,6 @@ npm i nats
 #### Start:
 
 ```
-npm start
+npm run example-1
+npm run example-2 // reply option
 ```

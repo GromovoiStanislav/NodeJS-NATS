@@ -1,4 +1,4 @@
-import { connect, Empty } from 'nats';
+import { connect, Empty, ErrorCode } from 'nats';
 
 // to create a connection to a nats-server:
 const nc = await connect({ servers: 'demo.nats.io:4222' });
@@ -29,8 +29,19 @@ sub.unsubscribe();
 nc.request('greet.joe').catch((err) => {
   console.log(
     'request failed with: ',
-    err.code === '503' ? 'timeout' : err.message
+    err.code === '503' ? 'no one is listening' : err.message
   );
+
+  switch (err.code) {
+    case ErrorCode.NoResponders:
+      console.log("no one is listening to 'greet.joe'");
+      break;
+    case ErrorCode.Timeout:
+      console.log("someone is listening but didn't respond");
+      break;
+    default:
+      console.log('request failed', err);
+  }
 });
 
 await nc.drain();

@@ -4,7 +4,8 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "example-1": "node example-1.js",
+    "example-2": "node example-2.js"
   },
   "keywords": [],
   "author": "",
