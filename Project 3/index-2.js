@@ -1,7 +1,7 @@
 import { connect, StringCodec } from 'nats';
 
 // to create a connection to a nats-server:
-const nc = await connect({ servers: 'demo.nats.io:4222' });
+const nc = await connect({ servers: 'nats://127.0.0.1:4222' });
 
 // create a codec
 const sc = StringCodec();
