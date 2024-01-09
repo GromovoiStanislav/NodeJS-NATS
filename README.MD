@@ -6,3 +6,4 @@
 - 4 - Request-Reply
 - 5 - JSON for Message Payloads
 - 6 - Queue Groups
+- 7 - Publish/Subscribe JSON simple example

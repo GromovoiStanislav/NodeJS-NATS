@@ -1,0 +1,16 @@
+{
+  "name": "nats-example",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "subscriber": "node subscriber.js",
+    "publisher": "node publisher.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nats": "^2.18.0"
+  }
+}
