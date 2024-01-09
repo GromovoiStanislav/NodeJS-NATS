@@ -1,6 +1,6 @@
 import { connect, JSONCodec } from 'nats';
 
-const nc = await connect({ servers: 'demo.nats.io:4222' });
+const nc = await connect({ servers: 'nats://127.0.0.1:4222' });
 const jc = JSONCodec();
 
 const generateClientName = () => {

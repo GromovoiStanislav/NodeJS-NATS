@@ -1,7 +1,7 @@
 import { connect, createInbox, Empty, headers } from 'nats';
 
 const nc = await connect({
-  servers: `demo.nats.io`,
+  servers: 'nats://127.0.0.1:4222',
 });
 
 const subj = createInbox();
