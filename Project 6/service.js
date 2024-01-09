@@ -4,7 +4,10 @@ async function createService(name, count = 1, queue = '') {
   const conns = [];
   for (let i = 1; i <= count; i++) {
     const n = queue ? `${name}-${i}` : name;
-    const nc = await connect({ servers: 'demo.nats.io:4222', name: `${n}` });
+    const nc = await connect({
+      servers: 'nats://127.0.0.1:4222',
+      name: `${n}`,
+    });
     nc.closed().then((err) => {
       if (err) {
         console.error(`service ${n} exited because of error: ${err.message}`);
