@@ -8,3 +8,4 @@
 - 6 - Queue Groups
 - 7 - Publish/Subscribe JSON simple example
 - 8 - Request/Reply with Protobuf (with grpc-tool code generation) simple example
+- 9 - Publish/Subscribe with Protobuf (with grpc-tool code generation) simple example
