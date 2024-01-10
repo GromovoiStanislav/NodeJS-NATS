@@ -7,7 +7,7 @@ const nc = await connect({ servers: 'nats://127.0.0.1:4222' });
 const req = new Schema.GreetRequest();
 req.setName('Hussein');
 
-// Отправка JSON-сообщения
+// Отправка protobuf-сообщения
 const subject = 'greet';
 let res = await nc.request(subject, req.serializeBinary());
 

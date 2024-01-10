@@ -24,7 +24,7 @@ employees.addEmployees(hussein);
 employees.addEmployees(ahmed);
 employees.addEmployees(rick);
 
-// Отправка JSON-сообщения
+// Отправка protobuf-сообщения
 const subject = 'employees';
 nc.publish(subject, employees.serializeBinary());
 
