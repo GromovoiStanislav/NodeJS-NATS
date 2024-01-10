@@ -10,3 +10,4 @@
 - 8 - Request/Reply with Protobuf (with grpc-tool code generation) simple example
 - 9 - Publish/Subscribe with Protobuf (with grpc-tool code generation) simple example
 - 10 - Publish/Subscribe with Protobuf (with protobufjs) simple example
+- 11 - Publish/Subscribe with Protobuf (with protobufjs) simple example
