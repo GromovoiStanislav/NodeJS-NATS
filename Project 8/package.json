@@ -1,0 +1,17 @@
+{
+  "name": "nats-example",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "client": "node client.js",
+    "service": "node service.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-protobuf": "^3.21.2",
+    "nats": "^2.18.0"
+  }
+}
