@@ -1,0 +1,27 @@
+###
+GET http://localhost:3000
+Accept: */*
+Cache-Control: no-cache
+
+
+###
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+
+
+###
+POST  http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "name": "Tom",
+  "email": "tom@mail.com"
+}
+
+###
+GET http://localhost:3000/logs
+Accept: */*
+Cache-Control: no-cache

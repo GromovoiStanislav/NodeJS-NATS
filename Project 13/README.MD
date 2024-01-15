@@ -6,5 +6,4 @@ Microservice communication with NATS message queue. Quite simple implementation
 
 ```
 npm run server
-npm run service
 ```
