@@ -12,4 +12,5 @@
 - 10 - Publish/Subscribe with Protobuf (with protobufjs) simple example
 - 11 - Publish/Subscribe with Protobuf (with protobufjs) simple example
 - 12 - Express with NATS microservice communication
-- 12 - Express with NATS microservice communication
+- 13 - Express with NATS microservice communication
+- 14 - Publish/Subscribe communication example (TS)
