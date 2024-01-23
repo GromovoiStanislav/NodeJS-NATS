@@ -1,0 +1,10 @@
+###
+POST http://localhost:3001/publish/message
+Accept: */*
+Cache-Control: no-cache
+
+
+###
+GET http://localhost:3002
+Accept: */*
+Cache-Control: no-cache
