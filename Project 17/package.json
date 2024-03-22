@@ -1,0 +1,21 @@
+{
+  "name": "nats-ts-demo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "service": "node ./build/service.js",
+    "client": "node ./build/client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "nats": "^2.19.0"
+  }
+}

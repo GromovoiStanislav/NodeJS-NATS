@@ -16,3 +16,4 @@
 - 14 - Publish/Subscribe communication example (TS)
 - 15 - Express with NATS microservice communication
 - 16 - Publish/Subscribe communication example (TS)
+- 17 - Request/Reply communication example (TS)
